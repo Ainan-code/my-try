@@ -7,6 +7,8 @@ import Card from './cards';
 import pic1 from './pic1.jpg';
 import pic2 from './pic2.jpg';
 import pic3 from './pic3.jpg';
+import Services from './services';
+import contactForm from './contactForm';
 
 
 function App(props) {
@@ -22,7 +24,8 @@ function App(props) {
      <Card name =" Luxury" imgUrl={pic2} button ='See Details' btnId="brown-btn" />
      
     </div>
-    
+     <Services/>
+     <contactForm/>
     </div>
    
   

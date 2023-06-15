@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "react-native-sqlite-storage": "^6.0.1"
+  },
+  "devDependencies": {
+    "css-loader": "^6.7.1",
+    "style-loader": "^3.3.1"
+  }
+}
