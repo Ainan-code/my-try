@@ -1,4 +1,5 @@
-import logo from './logo.svg';
+
+
 import './App.css';
 import './header'
 import Header from './header';
@@ -8,7 +9,8 @@ import pic1 from './pic1.jpg';
 import pic2 from './pic2.jpg';
 import pic3 from './pic3.jpg';
 import Services from './services';
-import contactForm from './contactForm';
+import ContactForm from './contactForm';
+import Footer from './Footer';
 
 
 function App(props) {
@@ -25,7 +27,8 @@ function App(props) {
      
     </div>
      <Services/>
-     <contactForm/>
+     <ContactForm/>
+     <Footer/>
     </div>
    
   
